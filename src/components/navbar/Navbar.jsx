@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="p-4 fixed w-[100%] z-20 top-0 bg-white">
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-white text-2xl font-bold">
-          <img src={logo} alt="" className='w-24' />
+          <img src={logo} alt="" className='w-[12rem]' />
         </div>
         <div className="block lg:hidden">
           <button 

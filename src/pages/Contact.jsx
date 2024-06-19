@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button, Form, Input, Space, Radio } from "antd";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import location from "../assets/images/location.jpeg";
+import ahc from "../assets/images/ahc.png";
 const { TextArea } = Input;
 
 const SubmitButton = ({ form, children }) => {
@@ -35,7 +36,7 @@ const Contact = () => {
 
   return (
     <div>
-      <h2 className="text-center font-medium text-2xl sm:text-4xl mt-10">
+      <h2 className="text-center font-medium text-2xl sm:text-4xl mt-[7rem]">
         Contact Us
       </h2>
 
@@ -130,9 +131,9 @@ const Contact = () => {
           </div>
           <div className="relative col-span-1 bg-slate-400 lg:block h-80 sm:h-[500px]">
             <img
-              src={location}
+              src={ahc}
               alt="Location"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-fill"
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white p-4 text-2xl">
               <div className="flex items-center mb-2">

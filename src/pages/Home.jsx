@@ -9,7 +9,7 @@ import hero from '../assets/images/home-hero.jpg'
 const Home = () => {
   return (
     <div>
-      <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden mt-11">
+      <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden mt-[4.7rem]">
       <img 
         src={hero} 
         alt="Description" 
