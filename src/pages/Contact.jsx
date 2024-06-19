@@ -146,7 +146,7 @@ const Contact = () => {
                 <h2 className="text-center">301-763-0261, 248-384-849</h2>
               </div>
               <h2 className="text-center">
-                We are: Licensed, Insured & Bonded
+                We are: Licensed, Insured & Bonded.
               </h2>
             </div>
           </div>
