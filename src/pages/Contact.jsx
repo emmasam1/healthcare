@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Button, Form, Input, Space, Radio } from "antd";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import location from "../assets/images/location.jpeg";
-import ahc from "../assets/images/ahc.png";
+import img_3 from "../assets/images/img_3.jpg";
+import img_1 from "../assets/images/img_1.jpg";
 const { TextArea } = Input;
 
 const SubmitButton = ({ form, children }) => {
@@ -36,9 +36,17 @@ const Contact = () => {
 
   return (
     <div>
-      <h2 className="text-center font-medium text-2xl sm:text-4xl mt-[7rem]">
+      <h2 className="text-center font-bold text-2xl sm:text-4xl relative">
         Contact Us
       </h2>
+
+      <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden mt-11">
+        <img
+          src={img_1}
+          alt="Description"
+          className="w-full h-full object-cover"
+        />
+      </div>
 
       <div className="m-auto w-full sm:w-11/12 mt-10 px-4 sm:px-0">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
@@ -131,7 +139,7 @@ const Contact = () => {
           </div>
           <div className="relative col-span-1 bg-slate-400 lg:block h-80 sm:h-[500px]">
             <img
-              src={ahc}
+              src={img_3}
               alt="Location"
               className="w-full h-full object-fill"
             />
@@ -154,7 +162,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="bg-img7 mt-8 h-60 sm:h-80 relative">
+      <div className="bg-img7 mt-8 h-60 sm:h-80 relative mb-1">
         <div className="overlay flex justify-center items-center px-8 sm:px-96 text-center">
           <h2 className="text-white text-lg sm:text-2xl">
             <b>@ Amazing & Steadfast Residential Agency Inc.</b> We provide care

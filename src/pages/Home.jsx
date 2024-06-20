@@ -4,26 +4,29 @@ import { Button } from "antd";
 import community from "../assets/icons/community.svg";
 import toothbrush from "../assets/icons/toothbrush.svg";
 import holdinghand from "../assets/icons/holdinghand.svg";
-import hero from '../assets/images/home-hero.jpg'
+import img_2 from "../assets/images/img_2.jpg";
 
 const Home = () => {
   return (
     <div>
-      <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden mt-[4.7rem]">
-      <img 
-        src={hero} 
-        alt="Description" 
-        className="w-full h-full object-cover"
-      />
-    </div>
-      <div className="bg-gray-100 pt-10 h-96 flex justify-center items-center flex-col text-center">
+      <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden">
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <img
+          src={img_2}
+          alt="Description"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="bg-gray-100 pt-10 h-auto flex justify-center items-center flex-col text-center py-14 mt-5">
         <h2 className="text-3xl sm:text-5xl font-medium mx-4">
           Call us today to start a plan for you, and your loved ones
         </h2>
-        <h2 className="text-2xl sm:text-4xl font-medium mt-2">+234(80)34-123-900</h2>
+        <h2 className="text-2xl sm:text-4xl font-medium mt-2">
+        301-763-0261, 248-384-849
+        </h2>
       </div>
-      <div className="mt-14 flex flex-col items-center justify-center">
-        <h2 className="text-center text-3xl sm:text-5xl font-bold mb-5">
+      <div className="mt-14 flex flex-col items-center justify-center py-20">
+        <h2 className="text-center text-3xl sm:text-5xl font-bold mb-10">
           What We Can Do for You
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-11/12 m-auto">
@@ -77,7 +80,9 @@ const Home = () => {
             Not sure what types of care you need?
           </h2>
           <div className="m-auto">
-            <Button className="mt-8 sm:mt-14 p-6 px-10">Contact us</Button>
+            <Button className="mt-8 sm:mt-14 p-6 px-10">
+            <Link to="/contact">Contact Us</Link>
+            </Button>
           </div>
         </div>
       </div>
@@ -133,32 +138,22 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mt-15">
-        <h2 className="text-center text-3xl sm:text-4xl font-bold">Our Story</h2>
+      <div className="h-3/6 py-10 mb-5">
+        <h2 className="text-center text-3xl sm:text-4xl font-bold">
+          Our Value
+        </h2>
         <div className="w-full lg:w-[60%] m-auto mt-8">
           <p className="text-center text-sm sm:text-base">
-            Home—there’s no place like it. It’s where your memories are. Where
-            you raised your family and where friends have gathered for life’s
-            celebrations. It’s been your basecamp through good times and bad.
-            And it’s where you want to stay. At Right at Home, our intention is
-            to help you do just that. Why? Because we exist to be your guide to
-            living successfully at home, wherever home may be. It’s our purpose.
-          </p>
-        </div>
-        <div className="w-full lg:w-[60%] m-auto mt-5">
-          <p className="text-center text-sm sm:text-base">
-            Aging, disability, illness or injury can make living at home a
-            challenge. We believe that no one should have to face the long list
-            of complex decisions and unforeseen changes alone. We are experts,
-            providing not just care, but coaching and experience to help
-            navigate every step of the journey. Right at Home’s trained
-            caregivers are passionate about helping clients because they know
-            with each life they impact, they are changing the world.
+            <b>At Amazing & Steadfast Residential Agency Inc.</b> we are guided
+            by a set of core values that include compassion, respect, integrity,
+            and excellence. We believe that these values are essential to
+            providing the best possible care to our clients, and we strive to
+            uphold them in everything we do
           </p>
         </div>
         <div className="flex justify-center items-center mt-9">
           <Button className="p-5 px-14 bg-blue-600 text-white font-bold">
-            Learn more
+            <Link to="/about">Learn more</Link>
           </Button>
         </div>
       </div>
