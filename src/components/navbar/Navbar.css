@@ -1,0 +1,20 @@
+/* Navbar.css */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100vh;
+    background: white;
+    z-index: 50;
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .mobile-menu.open {
+    left: 0;
+  }
+  
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3) !important;
+  }
+  

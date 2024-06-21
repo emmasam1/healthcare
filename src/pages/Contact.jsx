@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Form, Input, Space, Radio } from "antd";
 import { FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import img_3 from "../assets/images/img_3.jpg";
-import img_1 from "../assets/images/img_1.jpg";
+import img_1 from "../assets/images/img_2.jpg";
 const { TextArea } = Input;
 
 const SubmitButton = ({ form, children }) => {
