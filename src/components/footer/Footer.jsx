@@ -9,13 +9,13 @@ const Footer = () => {
     <div className="w-full bg-[#1D2802] mt-24 pb-5">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 m-auto w-[90%] gap-10 pt-10">
         <div className="-r pr-8">
-          <div className="text-white text-2xl font-bold">MyBrand</div>
+          <div className="text-white text-2xl font-bold">ASFRA Inc</div>
           <p className="text-white mt-5 mb-5">
-            <b>Address:</b> 3517 Langrehr Rd Suite 1 Windsor Mill, Md 21244 We
-            are: Licensed, Insured & Bonded
+            <b>Address:</b> Amazing & Steadfast Residential Agency Inc 3517
+            Langrehr Road Suite 1, Windsor Mill, MD 21244
           </p>
           <p className="text-white mb-5">
-            <b>Phone:</b> 301-763-0261, 248-384-849
+            <b>Phone:</b> +1 3017630261, 2408384849
           </p>
           <Link
             to="contact"
@@ -93,7 +93,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center text-white mt-4">
-        All rights reserved &copy; {currentYear} AmazingSteadfast.com
+        All rights reserved &copy; {currentYear} Afripace International
       </p>
     </div>
   );
