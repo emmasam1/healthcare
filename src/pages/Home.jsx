@@ -85,11 +85,11 @@ const Home = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 w-11/12 lg:w-3/5 m-auto mt-10 sm:mt-20 gap-10 bg-white">
         <div className="flex justify-center flex-col border-b sm:border-r-2 sm:border-b-0 p-5">
           <h2 className="text-lg sm:text-2xl font-semibold text-center text-green-700">
-            Already know which services you need?
+            Don't know which services you need?
           </h2>
           <div className="m-auto">
             <Button className="mt-8 sm:mt-14 hover:bg-transparent hover:text-green-600 border border-green-600 bg-green-600 text-white p-4 sm:p-6 px-8 sm:px-10">
-              Contact us
+            <Link to="/services">Learn more</Link>
             </Button>
           </div>
         </div>
@@ -110,26 +110,22 @@ const Home = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="pr-10 flex justify-center flex-col">
             <h2 className="text-xl sm:text-3xl text-green-700 mb-5 sm:mb-10">
-              Veterans Care
+            Compassionate Care and Support for Older Adults
             </h2>
 
             <h2 className="mb-5 text-lg sm:text-xl font-medium text-green-700">
-              Serving Those Who Served Our Nation
+            Discover how we create safe, comfortable environments where independence and well-being thrive.
             </h2>
             <p className="leading-8 text-sm sm:text-base text-gray-700">
-              Right at Home Little Rock Metro is proud to offer our services to
-              the many veterans in our communities. We understand the importance
-              of providing care for these men and women who served our nation.
-              There are a number of ways Right at Home can help veteran seniors
-              and adults with disabilities stay in their homes and live richer
-              lives. Someone who served in the active military, reserve or
-              National Guard may qualify for VA health care benefits or State
-              programs that can connect you with a variety of service providers
-              including Right at Home.
+              Welcome to Amazing & Steadfast Residential Agency Inc., dedicated
+              to enhancing the lives of older adults through compassionate care
+              and support. We specialize in creating safe, comfortable
+              environments where independence and well-being thrive. Discover
+              how we can help your loved ones live their best life today.
             </p>
             <div>
               <Button className="mt-5 p-4 sm:p-6 bg-green-600 text-white">
-                Learn more
+                <Link to='/services'>Learn more</Link>
               </Button>
             </div>
           </div>

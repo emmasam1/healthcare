@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
-import { Sling as Hamburger } from 'hamburger-react';
+import { Spin as Hamburger } from 'hamburger-react';
 import './Navbar.css';  // Make sure to create this CSS file
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white fixed w-full z-10">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="pa-10 flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} className="w-20" alt="Logo" />
         </Link>
