@@ -25,7 +25,7 @@ const Home = () => {
           Call us today to start a plan for you, and your loved ones
         </h2>
         <h2 className="text-lg sm:text-2xl font-medium mt-2 text-green-600">
-          301-763-0261, 248-384-849
+          +1-301-768-0261, +1-240-838-4849
         </h2>
       </div>
 

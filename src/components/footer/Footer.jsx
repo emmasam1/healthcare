@@ -15,7 +15,7 @@ const Footer = () => {
             Langrehr Road Suite 1, Windsor Mill, MD 21244
           </p>
           <p className="text-white mb-5">
-            <b>Phone:</b> +1 3017630261, 2408384849
+            <b>Phone:</b> +1-301-768-0261, +1-240-838-4849
           </p>
           <Link
             to="contact"
