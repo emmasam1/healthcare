@@ -89,7 +89,7 @@ const Home = () => {
           </h2>
           <div className="m-auto">
             <Button className="mt-8 sm:mt-14 hover:bg-transparent hover:text-green-600 border border-green-600 bg-green-600 text-white p-4 sm:p-6 px-8 sm:px-10">
-            <Link to="/services">Learn more</Link>
+              <Link to="/services">Learn more</Link>
             </Button>
           </div>
         </div>
@@ -110,11 +110,12 @@ const Home = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="pr-10 flex justify-center flex-col">
             <h2 className="text-xl sm:text-3xl text-green-700 mb-5 sm:mb-10">
-            Compassionate Care and Support for Older Adults
+              Compassionate Care and Support for Older Adults
             </h2>
 
             <h2 className="mb-5 text-lg sm:text-xl font-medium text-green-700">
-            Discover how we create safe, comfortable environments where independence and well-being thrive.
+              Discover how we create safe, comfortable environments where
+              independence and well-being thrive.
             </h2>
             <p className="leading-8 text-sm sm:text-base text-gray-700">
               Welcome to Amazing & Steadfast Residential Agency Inc., dedicated
@@ -125,7 +126,7 @@ const Home = () => {
             </p>
             <div>
               <Button className="mt-5 p-4 sm:p-6 bg-green-600 text-white">
-                <Link to='/services'>Learn more</Link>
+                <Link to="/services">Learn more</Link>
               </Button>
             </div>
           </div>
@@ -139,11 +140,11 @@ const Home = () => {
         </h2>
         <div className="m-auto w-full lg:w-[65%] mt-5">
           <p className="text-center text-sm sm:text-base text-gray-700">
-            Right at Home Little Rock Metro is a leading in-home care company
-            that has been selected as 2024 Provider of Choice, Employer of
-            Choice, and Leader in Experience Award winners by Home Care Pulse.
-            We are proud of our incredible staff and highly trained caregivers,
-            who provide world class service to seniors and adults with
+            Amazing & Steadfast Residential Agency Inc. is a leading care agency
+            that has been selected as a 2024 Provider of Choice, Employer of
+            Choice, and Leader in Experience Award winner by Home Care Pulse. We
+            are proud of our incredible staff and highly trained caregivers, who
+            provide world-class service to elderly individuals and adults with
             disabilities in our community.
           </p>
         </div>
